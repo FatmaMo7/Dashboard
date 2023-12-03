@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+   </head>
+  <body >
+    
+    <div class="page d-flex">
+      <div class="sidebar  p-3 shadow  position-relative">
+          <h3 class="position-relative pb-4  mt-0 text-light fw-bold "> 
+            <span class=" s-icon px-2 fs-4 me-2 ">S</span> <span class="logo ">Stork</span></h3>
+          <ul>
+              <li>
+                  <a class="active d-flex align-items-center fs-6 p-2  " href="index.html">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                      <span  class="  fs-7 fw-bold ">Dashboard</span>
+                  </a>
+              </li>
+              <li>
+                <a class=" d-flex align-items-center fs-6  p-2 " href="index.html">
+                  <i class="fa-solid fa-cube"></i>
+                        <span class="  fs-7 fw-bold ">Products</span>
+              </a>
+              </li>
+              <li>
+                <a class=" d-flex align-items-center fs-6  p-2 orders " href="index.html">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="  fs-7 fw-bold ">Orders</span>
+              </a>
+              </li>
+          </ul>
+          <ul class=" mt-5  pb-5">
+              <li>
+                <p class=" d-flex align-items-center fw-bold  text-light pt-4 analytic">
+                        Analytics
+              </p>
+              </li>
+              <li>
+                <a class=" d-flex align-items-center fs-6  p-2  " href="index.html">
+                  <i class="fa-regular fa-file-lines"></i>
+                      <span class="  fs-7 fw-bold ">Invoice</span>
+              </a>
+              </li>
+              <li>
+                <a class=" d-flex align-items-center fs-6  p-2 " href="index.html">
+                  <i class="fa-regular fa-file-lines"></i>
+                     <span class="  fs-7 fw-bold ">Reports</span>
+              </a>
+              </li>    
+          </ul>
+          <ul class=" mt-5 pt-5">
+            
+            <li>
+              <a class=" d-flex align-items-center fs-6  p-2  " href="index.html">
+                <i class="fa-solid fa-gear"></i>
+                   <span class="  fs-7 fw-bold ">Settings</span>
+            </a>
+            </li>
+            <li>
+              <a class=" d-flex align-items-center fs-6 p-2 " href="index.html">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                   <span class="  fs-7 fw-bold ">Logout</span>
+            </a>
+            </li>    
+        </ul>
+      </div>
+      <div class="content w-full">
+
+        <!-- start head -->
+        <div class="head bg-white p-3 d-flex align-items-center  justify-content-between sticky-top  ">
+          <h1 class="p-relative text-uppercase fs-5 fw-bold ">Dashboard</h1>
+
+          <div class="icons d-flex  align-items-center">
+            <span class="notification  position-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <h2 class="p-relative  fs-6 fw-bold">Fatma Mo</h2>
+            <img decoding="async" src="imgs/u3.jpg" alt="" />
+          </div>
+          </div>
+        <!-- end head -->
+
+           <!-- Begin Page Content -->
+           <div class="container-fluid content">
+            
+            <div class="row pt-4">
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-primary shadow h-100 py-2 px-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-start d-flex justify-content-around   ">
+                              <div class="col-auto align-self-center  icon1 py-2">
+                                <i class="fas fa-calendar  fa-2x fs-5 text-gray-300"></i>
+                            </div>
+                                <div class="col-auto mr-2">
+                                    <div class="fs-4 mb-0 fw-bold text-gray-800">
+                                      80.265</div>
+                                    <div class="text-xs font-weight-bold text-primary  mb-1 text-black-50 ">Total Products</div>
+                                </div>
+                                <div class="col-auto up ">
+                                  <i class="fa-solid fa-arrow-trend-up"></i>
+                                  <span>2.5%</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-4">
+                  <div class="card border-left-primary shadow h-100 py-2 px-2">
+                      <div class="card-body">
+                          <div class="row no-gutters align-items-start d-flex justify-content-around   ">
+                            <div class="col-auto align-self-center  icon2 py-2">
+                              <i class="fa-solid fa-bucket fs-5"></i>
+                                                  </div>
+                              <div class="col-auto mr-2">
+                                  <div class="fs-4 mb-0 fw-bold text-gray-800">
+                                   1300</div>
+                                  <div class="text-xs font-weight-bold text-primary  mb-1 text-black-50 ">Total Orders</div>
+                              </div>
+                              <div class="col-auto down ">
+                                <i class="fa-solid fa-arrow-trend-down"></i>
+                                <span>1.25%</span>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>    
+                <div class="col-xl-3 col-md-6 mb-4">
+                  <div class="card border-left-primary shadow h-100 py-2 px-2">
+                      <div class="card-body">
+                          <div class="row no-gutters align-items-start d-flex justify-content-around   ">
+                            <div class="col-auto align-self-center icon3 py-2">
+                              <i class="fa-solid fa-circle-dollar-to-slot fs-5"></i>
+                          </div>
+                              <div class="col-auto mr-2">
+                                  <div class="fs-4 mb-0 fw-bold text-gray-800">
+                                   18.360</div>
+                                  <div class="text-xs font-weight-bold text-primary  mb-1 text-black-50 ">Total Sales</div>
+                              </div>
+                              <div class="col-auto down ">
+                                <i class="fa-solid fa-arrow-trend-down"></i>
+                                <span>1.0%</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-primary shadow h-100 py-2 px-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-start d-flex justify-content-around   ">
+                          <div class="col-auto align-self-center icon4 py-2">
+                            <i class="fa-solid fa-user fs-5"></i>
+                                                  </div>
+                            <div class="col-auto mr-2">
+                                <div class="fs-4 mb-0 fw-bold text-gray-800">
+                                 690</div>
+                                <div class="text-xs font-weight-bold text-primary  mb-1 text-black-50 ">Total Customer</div>
+                            </div>
+                            <div class="col-auto up ">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>1.0%</span>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            </div>
+         </div>
+     
+        <!-- /.container-fluid -->
+        <div class="container-fluid inventory">
+            
+          <div class="row pt-4 d-flex justify-content-evenly">
+
+              <div class="col-xl-8 col-md-6 mb-4">
+                  <div class="card h-100 py-2 px-2">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold pb-4 ">Sales Analytics</h5>
+                        <div id="chart"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-5 mb-4">
+                <div class="body  py-2 px-2">
+                    <div class="card-body ">
+                      <h5 class="card-title pb-1 fw-bold">Inventory Summary</h5>
+                      <div class="row row1 border-left-primary shadow p-2 align-items-center d-flex justify-content-evenly">
+                        <div class="col-12 col-xl-6">
+                          <i class="fa-solid fa-box light-icon fs-4"></i>
+                          <span class="fs-4 mb-0 fw-bold text-gray-800">
+                            264</span>
+                            <p class="text-black-50 fs-6 ">Quantity in hand</p>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                          <i class="fa-solid fa-lightbulb  light-icon fs-4"></i>
+                          <span class="fs-4 mb-0 fw-bold text-gray-800">
+                            64</span>
+                            <p class="text-black-50 fs-6 ">Will be recevied</p>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row2  ">
+                    <div class="row  d-flex justify-content-around text-center text-md-start">
+                      <div class="col-12 col-xl-6"><h6 class="fw-bold ">Recent Orders</h6>
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="text-black-50">View all</p>
+                      </div>
+                     </div>
+                     <div class="row  d-flex justify-content-between ">
+                      <div class="col-12 col-xl-8 d-flex ps-4">
+                        <img src="imgs/u1.jpg" alt="" class="img-circle">
+                        <div class="text px-2">
+                          <h6 class="fw-bold">Mohamed</h6>
+                          <p class="fs-7 text-black-50">mohamed@gmail.com </p>
+                        </div>                      
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="fs-6 fw-bold">$3850.00</p>
+                      </div>
+                     </div>
+                     <div class="row  d-flex justify-content-between ">
+                      <div class="col-12 col-xl-8 d-flex ps-4">
+                        <img src="imgs/u2.JPG" alt="" class="img-circle">
+                        <div class="text px-2">
+                          <h6 class="fw-bold">Fatma Mo</h6>
+                          <p class="fs-7 text-black-50">fatma@yahoo.com </p>
+                        </div>                      
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="fs-6 fw-bold">$3850.00</p>
+                      </div>
+                     </div>
+                     <div class="row  d-flex justify-content-between ">
+                      <div class="col-12 col-xl-8 d-flex ps-4">
+                        <img src="imgs/u3.JPG" alt="" class="img-circle">
+                        <div class="text px-2">
+                          <h6 class="fw-bold">Fatma Mo</h6>
+                          <p class="fs-7 text-black-50">fatma@gmail.com </p>
+                        </div>                      
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="fs-6 fw-bold">$3850.00</p>
+                      </div>
+                     </div>
+                     <div class="row  d-flex justify-content-between ">
+                      <div class="col-12 col-xl-8 d-flex ps-4">
+                        <img src="imgs/u4.JPG" alt="" class="img-circle">
+                        <div class="text px-2">
+                          <h6 class="fw-bold">Mohamed</h6>
+                          <p class="fs-7 text-black-50">mohamed@yahoo.com </p>
+                        </div>                      
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="fs-6 fw-bold">$3850.00</p>
+                      </div>
+                     </div>
+                     <div class="row  d-flex justify-content-between ">
+                      <div class="col-12 col-xl-8 d-flex ps-4">
+                        <img src="imgs/u3.JPG" alt="" class="img-circle">
+                        <div class="text px-2">
+                          <h6 class="fw-bold">Fatma Mo</h6>
+                          <p class="fs-7 text-black-50">fatma@gmail.com </p>
+                        </div>                      
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <p class="fs-6 fw-bold">$3850.00</p>
+                      </div>
+                     </div>
+                  </div>
+                    </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid ">
+            
+                  <div class="row  d-flex justify-content-evenly">
+        
+                      <div class="col-xl-8 col-md-6 mb-4">
+                          <div class="card h-100 py-2 px-2">
+                              <div class="card-body">
+                                <h5 class="card-title fw-bold py-3 ">Best Selling Products</h5>
+                                 <!-- start table-->                              
+                                <div class="responsive-table">
+                                  <table class="table table-hover text-center">
+                                    <thead>
+                                      <tr  class="table-active  ">
+                                        <th scope="col">PRODUCT</th>
+                                        <th scope="col">SKU</th>
+                                        <th scope="col">PERFORMANCES</th>
+                                        <th scope="col">PRICE</th>
+                                        <th scope="col">STOCK</th>
+                                        <th scope="col">STATUS</th>
+                                        <th scope="col">ACTION</th>
+  
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr >
+                                        <th scope="row" class="fw-bold"><img src="imgs/a.JPG" class="" alt="">
+                                         Appel Airpods</th>
+                                         <td >LV 1879</td>
+                                         <td>Good <span class="">+90%</span></td>
+                                        <td>$150.00</td>
+                                        <td>640</td>
+                                        <td><span class="label">In Stock</span></td>
+                                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th class="fw-bold"><img src="imgs/a2.JPG" class="" alt="">
+                                          Appel Airpods</th>
+                                          <td >LV 1879</td>
+                                          <td>Good <span class="">+90%</span></td>
+                                          <td>$150.00</td>
+                                          <td>640</td>
+                                          <td><span class="label">In Stock</span></td>
+                                          <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th class="fw-bold"><img src="imgs/a.JPG" class="" alt="">
+                                          Appel Airpods</th>
+                                          <td >LV 1879</td>
+                                          <td>Good <span class="">+90%</span></td>
+                                        <td>$150.00</td>
+                                        <td>640</td>
+                                        <td><span class="label">In Stock</span></td>
+                                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                                      </tr>
+                                      <tr>
+                                        <th class="fw-bold"><img src="imgs/a2.JPG" class="" alt="">
+                                          Appel Airpods</th>
+                                        <td >LV 1879</td>
+                                        <td>Good <span class="">+90%</span></td>
+                                        <td>$150.00</td>
+                                        <td>640</td>
+                                        <td><span class="label">In Stock</span></td>
+                                        <td><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              <!-- end table-->
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-4 col-md-5 mb-4">
+                        <div class="body  py-2 px-2">
+                            <div class="card-body ">
+                              <h5 class="card-title pb-1 fw-bold">Vistors</h5>
+                              
+                              <div id="charts"></div>
+                            </div>
+                        
+                            </div>
+                              </div>
+                            </div>
+                        </div>      
+            </div>                                  
+          </div>                                           
+           
+      <script src="js/all.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+      <script src="js/script.js"></script>
+      
+      
+    </body>
+</html>
